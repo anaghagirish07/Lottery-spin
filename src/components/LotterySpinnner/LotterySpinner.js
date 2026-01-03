@@ -1,12 +1,7 @@
 import { useState } from "react";
-import {
-  DIGITS,
-  FULL_ROUNDS,
-  SLOT_HEIGHT,
-  TOTAL_SLOTS,
-} from "../../constants/lotterySpinner.constants";
+import { DIGITS, FULL_ROUNDS, SLOT_HEIGHT, TOTAL_SLOTS } from "./Constants";
 import Header from "./Shared/Header";
-import Slot from "./Shared/Slot/Slot";
+import Slot from "./Shared/Slot";
 import SpinButton from "./Shared/SpinButton";
 
 export default function LotterySpinner() {

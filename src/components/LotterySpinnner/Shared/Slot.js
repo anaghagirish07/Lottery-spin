@@ -1,4 +1,4 @@
-import Digit from "./Shared/Digit";
+import Digit from "./Digit";
 
 const Slot = ({ key, position, index, spinning, digits, slotHeight }) => {
   return (
